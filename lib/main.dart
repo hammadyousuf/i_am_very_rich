@@ -1,4 +1,12 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MaterialApp(home: Text('Hello world')));
-
+// The Main Function is the starting point for all flutter apps.
+void main() {
+  runApp(
+    const MaterialApp(
+      home: Center(
+        child: Text('Hello world'),
+      ),
+    ),
+  );
+}
